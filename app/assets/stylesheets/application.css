@@ -15,20 +15,42 @@
  */
 
 a {
+  list-style-type: square;
   text-decoration: none;
 }
 
-body {
-  font-family: helvetica;
-  text-align: center;
+a:link, a:visited {
+    color: #3b3a36;
 }
-
+a:hover {
+    color: #e6af4b;
+}
 h1 {
+  text-align: left;
+  margin-left: 100px;
   font-size: 300%;
+  color: black;
+  letter-spacing: 6px;
 }
 
 li {
   float: center;
-  margin-left: 360px;
+  margin-left: 380px;
   text-align: left;
+}
+li:hover {
+    color: #e6af4b;
+}
+
+form {
+  border-top: solid 1px;
+}
+
+
+body {
+  font-size: 180%;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  color: #3b3a36;
+
 }
